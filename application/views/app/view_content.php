@@ -88,7 +88,7 @@
         <div class="pull-right hidden-xs">
           <b>Version</b> 1.0
         </div>
-        <strong>Created By <a href="http://www.instagram.com/a.yusron">Arief Yusron</a>.</strong> Aplikasi SPK dengan Metode WP.
+        <strong>Created By <a href="http://www.instagram.com/a.yusron" target="_blank">Arief Yusron</a>.</strong> Aplikasi SPK dengan Metode WP.
       </footer>
     </div><!-- ./wrapper -->
 

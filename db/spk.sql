@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 26, 2018 at 01:10 AM
+-- Generation Time: Dec 03, 2018 at 05:28 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.4
 
@@ -39,7 +39,7 @@ CREATE TABLE `akun` (
 --
 
 INSERT INTO `akun` (`email`, `username`, `password`) VALUES
-('admin@gmail.com', 'admin', '$2y$10$IPBeNEmrrDnYHOIDwF.0YOsSMhpz3UjKUSH9rWYxEUCdt6T5Ka8rK');
+('admin@gmail.com', 'admin', '$2y$10$8s1vnYDxb7ZPr2RjtKlsseKu/DercaFiMI.sTrpUth6rRUF.thwFS');
 
 --
 -- Triggers `akun`
@@ -71,7 +71,8 @@ INSERT INTO `alternatif` (`id`, `email`, `lokasi`, `waktu`) VALUES
 ('A2', 'admin@gmail.com', 'Jl. Patimura', '2018-11-26 01:19:22'),
 ('A3', 'admin@gmail.com', 'Jl. Katamso', '2018-11-26 01:19:33'),
 ('A4', 'admin@gmail.com', 'Jl. Ade Irma S.', '2018-11-26 01:19:43'),
-('A5', 'admin@gmail.com', 'Jl. A. Yani', '2018-11-26 01:19:53');
+('A5', 'admin@gmail.com', 'Jl. A. Yani', '2018-11-26 01:19:53'),
+('A6', 'admin@gmail.com', 'Jl. Raya', '2018-11-29 21:21:53');
 
 --
 -- Triggers `alternatif`
@@ -181,7 +182,16 @@ INSERT INTO `pencocokan_kriteria` (`email`, `a`, `c`, `id_nilai`) VALUES
 ('admin@gmail.com', 'A5', 'C6', 27),
 ('admin@gmail.com', 'A5', 'C7', 29),
 ('admin@gmail.com', 'A5', 'C8', 33),
-('admin@gmail.com', 'A5', 'C9', 35);
+('admin@gmail.com', 'A5', 'C9', 35),
+('admin@gmail.com', 'A6', 'C1', 7),
+('admin@gmail.com', 'A6', 'C2', 15),
+('admin@gmail.com', 'A6', 'C3', 17),
+('admin@gmail.com', 'A6', 'C4', 21),
+('admin@gmail.com', 'A6', 'C5', 24),
+('admin@gmail.com', 'A6', 'C6', 27),
+('admin@gmail.com', 'A6', 'C7', 30),
+('admin@gmail.com', 'A6', 'C8', 32),
+('admin@gmail.com', 'A6', 'C9', 37);
 
 -- --------------------------------------------------------
 
